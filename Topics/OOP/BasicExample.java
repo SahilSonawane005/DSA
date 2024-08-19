@@ -47,6 +47,12 @@ class Car{
 
     }
 
+    //CONSTRUCTOR OVERLOADING
+    public Car(int price, String model) {
+        this.price = price;
+        this.model = model;
+    }
+
     @Override
 
     //HERE WE ARE USING TO STRING METHOD BECAUSE IF WE DIRECTLY PRINT THE VALUE WITHOUT TO STRING IT WILL GENERATE RANDOM HASH CODE VALUE.
