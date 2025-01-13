@@ -4,10 +4,10 @@ import java.lang.reflect.Array;
 
 public class arrayBasics {
     public static void main(String[] args) {
-        //Array is data struture used to store items of similar data types
+        //Array is data structure used to store items of similar data types
         //Array indexing start with 0 to n-1;
 
-        int[] num1 =new int[10]; //intialiazation of num array of size 10;
+        int[] num1 =new int[10]; //initialization of num array of size 10;
 
         int[] num2 = {4,45,78,64,232,787,12}; //Declaring elements of array  
 
@@ -16,11 +16,11 @@ public class arrayBasics {
         String[] name = {"sai","sunil","rahul"}; //String Array
         Boolean[] ar = {true,false,false,true};  //Boolean Array
 
-        //to acccess elements of array use index of elements
+        //to access elements of array use index of elements
         System.out.println(num2[2]);
 
-        for (int i = 0; i < name.length; i++) {
-            System.out.println(name[i]);
+        for (String s : name) {
+            System.out.println(s);
         }
 
         for (Boolean boolean1 : ar) {
@@ -46,8 +46,8 @@ public class arrayBasics {
             left++;
             right--;
         }
-        for (int i = 0; i < marks.length; i++) {
-            System.out.print(marks[i]+" ");
+        for (int mark : marks) {
+            System.out.print(mark + " ");
         }
       
      }

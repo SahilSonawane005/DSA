@@ -17,7 +17,7 @@ public class Linear_Search {
         System.out.println(linearSearchAlgo(n,nums));
     }
     public static  int linearSearchAlgo(int key,int[] ar){
-//        TIME COMPLEXTIY: O(n)
+//        TIME COMPLEXITY: O(n)
 
         for (int i = 0; i < ar.length; i++) {
             if (ar[i] == key){

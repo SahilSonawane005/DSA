@@ -17,9 +17,9 @@ public class StringBasics {
         System.out.println(str.indexOf("!"));
         System.out.println(str.isEmpty());
 
-        String s2 = "abcdefgh"; //orignal string
+        String s2 = "abcdefgh"; //original string
         System.out.println(s2);
-        System.out.println(revStr(s2));  //revserse string
+        System.out.println(revStr(s2));  //reverse string
 
         String s3 = "aba";
         System.out.println(revStr(s3));
@@ -27,14 +27,14 @@ public class StringBasics {
 
     }
     public static String revStr(String s){
-//        first way to revserse string
+//        first way to reverse string
 //        String newStr = "";
 //        for (int i = s.length()-1; i >=0 ; i--) {
 //            char ch = s.charAt(i);
 //            newStr = newStr + ch;
 //        }
 
-//        string revserse using stringBuilder
+//        string reverse using stringBuilder
         StringBuilder newStr = new StringBuilder();
         for (int i = s.length()-1; i >=0 ; i--) {
             char ch = s.charAt(i);

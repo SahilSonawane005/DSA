@@ -18,7 +18,7 @@ public class CustomStack {
     public boolean push (int item)  {
         if(isFull()){
 //            throw new Exception("Cannot push in full stack");
-            reaize();
+            resize();
             ptr++;
             data[ptr] = item;
             return true;
@@ -42,7 +42,7 @@ public class CustomStack {
     public int len(){
         return data.length;
     }
-    public void reaize(){
+    public void resize(){
         if (isFull()){
             int [] temp = new int[data.length*2];
             for (int i = 0; i < data.length; i++) {
